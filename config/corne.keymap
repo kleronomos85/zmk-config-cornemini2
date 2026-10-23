@@ -201,10 +201,10 @@
             // | GUI | CTRL | SHFT | LWR | SPC |   | ENT | RSE  | BKSP | ALT | ESC |
 
             bindings = <
-&trans  &kp ESC  &trans  &msc SCRL_LEFT  &msc SCRL_RIGHT  &kp C_VOLUME_UP      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp BACKSPACE  &trans
-&trans  &kp TAB  &trans  &msc SCRL_UP    &mkp MB1         &kp C_VOLUME_DOWN    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans        &kp APOS       &trans
-&trans  &trans   &trans  &msc SCRL_DOWN  &mkp MB2         &kp K_MUTE           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD    &kp FSLH       &trans
-                         &trans          &trans           &trans               &trans        &mo 3         &trans
+&trans  &kp ESC  &trans  &msc SCRL_LEFT  &msc SCRL_RIGHT  &kp C_VOLUME_UP      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0   &kp BACKSPACE  &trans
+&trans  &kp TAB  &trans  &msc SCRL_UP    &mkp MB1         &kp C_VOLUME_DOWN    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp SEMICOLON  &kp APOS       &trans
+&trans  &trans   &trans  &msc SCRL_DOWN  &mkp MB2         &kp K_MUTE           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD     &kp FSLH       &trans
+                         &trans          &trans           &trans               &trans        &kp MINUS     &kp EQUAL
             >;
         };
 
