@@ -184,10 +184,10 @@
             // | GUI | CTRL | SHFT | LWR | SPC |   | ENT | RSE  | BKSP | ALT | ESC |
 
             bindings = <
-&trans  &kp Q       &kp W        &kp E       &kp R        &kp T    &kp Y    &kp U        &kp I          &kp O        &kp P          &trans
-&trans  &hm LGUI A  &hm LSHFT S  &hm LALT D  &hm LCTRL F  &kp G    &kp H    &hm RCTRL J  &hm RALT K     &hm RSHFT L  &hm RGUI SEMI  &trans
-&trans  &kp Z       &kp X        &kp C       &kp V        &kp B    &kp N    &kp M        &kp COMMA      &kp DOT      &kp FSLH       &trans
-                                 &kp LGUI    &mo 1        &kp B    &kp RET  &lt 2 TAB    &kp BACKSPACE
+&trans  &kp Q  &kp W  &kp E      &kp R            &kp T                   &kp Y         &kp U      &kp I                 &kp O    &kp P     &trans
+&trans  &kp A  &kp S  &kp D      &kp F            &kp G                   &kp H         &kp J      &kp K                 &kp L    &kp SEMI  &trans
+&trans  &kp Z  &kp X  &kp C      &kp V            &kp B                   &kp N         &kp M      &kp COMMA             &kp DOT  &kp FSLH  &trans
+                      &kp LCTRL  &lt 1 BACKSPACE  &mt LEFT_SHIFT ENTER    &lt 2 RETURN  &kp SPACE  &mt RIGHT_GUI DELETE
             >;
         };
 
@@ -201,10 +201,10 @@
             // | GUI | CTRL | SHFT | LWR | SPC |   | ENT | RSE  | BKSP | ALT | ESC |
 
             bindings = <
-&trans  &kp ESC     &trans       &trans             &kp END          &kp HOME         &kp N6   &kp N7        &kp N8       &kp N9        &kp N0            &trans
-&trans  &hm LGUI A  &hm LSHFT S  &hm LALT UP_ARROW  &hm LCTRL DEL    &kp PAGE_UP      &kp N0   &hm RCTRL N4  &hm RALT N5  &hm RSHFT N6  &hm RGUI PAGE_UP  &trans
-&trans  &kp DEL     &kp LEFT     &kp DOWN           &kp RIGHT_ARROW  &kp PAGE_DOWN    &trans   &kp N1        &kp N2       &kp N3        &kp PAGE_DOWN     &trans
-                                 &kp LGUI           &trans           &kp SPACE        &kp RET  &mo 3         &trans
+&trans  &kp ESC  &trans  &msc SCRL_LEFT  &msc SCRL_RIGHT  &kp C_VOLUME_UP      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp BACKSPACE  &trans
+&trans  &kp TAB  &trans  &msc SCRL_UP    &mkp MB1         &kp C_VOLUME_DOWN    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans        &kp APOS       &trans
+&trans  &trans   &trans  &msc SCRL_DOWN  &mkp MB2         &kp K_MUTE           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD    &kp FSLH       &trans
+                         &trans          &trans           &trans               &trans        &mo 3         &trans
             >;
         };
 
@@ -218,10 +218,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp EXCL  &kp AT          &kp HASH           &kp DLLR         &kp PRCNT    &kp CARET  &kp AMPS         &kp ASTRK      &kp LEFT_PARENTHESIS  &kp RPAR       &trans
-&trans  &trans    &trans          &hm LALT UP_ARROW  &hm LCTRL SQT    &kp GRAVE    &kp MINUS  &hm RCTRL EQUAL  &hm RALT LBKT  &hm RSHFT RBKT        &hm RGUI BSLH  &trans
-&trans  &trans    &kp LEFT_ARROW  &kp DOWN_ARROW     &kp RIGHT_ARROW  &kp TILDE    &kp UNDER  &kp PLUS         &kp LBRC       &kp RBRC              &kp PIPE       &trans
-                                  &kp LGUI           &mo 3            &kp SPACE    &kp RET    &trans           &trans
+&trans  &kp EXCL  &kp AT          &kp HASH           &kp DLLR         &kp K_PLAY_PAUSE    &kp CARET       &kp UP_ARROW    &kp ASTRK  &kp LEFT_PARENTHESIS  &kp CAPS       &trans
+&trans  &trans    &trans          &hm LALT UP_ARROW  &hm LCTRL SQT    &kp GRAVE           &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &hm RSHFT RBKT        &hm RGUI BSLH  &trans
+&trans  &trans    &kp LEFT_ARROW  &kp DOWN_ARROW     &kp RIGHT_ARROW  &kp TILDE           &kp LEFT_ALT    &kp TAB         &kp LBRC   &kp RBRC              &kp PIPE       &trans
+                                  &kp LGUI           &mo 3            &kp SPACE           &trans          &mo 4           &mo 3
             >;
         };
 
